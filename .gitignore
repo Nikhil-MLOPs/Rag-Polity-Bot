@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Env
+venv/
+
+# Logs
+logs/
+*.log
+
+# Env variables
+.env
+
+# Data & embeddings
+data/
+!data/raw/
+
+# DVC
+.dvc/
+.dvcignore
+
+# MLflow
+mlruns/
+
+# Chroma
+chroma/
